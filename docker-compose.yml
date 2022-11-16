@@ -1,0 +1,10 @@
+services:
+  fdm-monster-site:
+    container_name: fdm-monster-site
+    image: davidzwa/fdm-monster-site:latest
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
