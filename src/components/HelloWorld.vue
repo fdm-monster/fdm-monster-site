@@ -1,17 +1,15 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-img contain height="300" src="/assets/logo.svg" />
+      <v-img contain height="250" src="/assets/logo.svg" />
 
-      <div class="text-body-2 font-weight-light mt-6 mb-6">Welcome to</div>
-
-      <h1 class="text-h2 font-weight-bold">FDM-Monster</h1>
+      <br/>
+      <h1 class="text-h2 mt-4 font-weight-bold">FDM-Monster</h1>
 
       <div class="mt-4 text-body-2">
         Are you ready to scale up your 3D Print farm using OctoPrint instances?
       </div>
-
-      <div class="py-14" />
+      <br/>
 
       <v-row class="d-flex align-center justify-center">
         <v-col cols="auto">
@@ -28,25 +26,16 @@
           </v-btn>
         </v-col>
 
-        <!--        <v-col cols="auto">-->
-        <!--          <v-btn-->
-        <!--            color="primary"-->
-        <!--            href="https://github.com/fdm-monster/fdm-monster"-->
-        <!--            min-width="228"-->
-        <!--            rel="noopener noreferrer"-->
-        <!--            size="x-large"-->
-        <!--            target="_blank"-->
-        <!--            variant="flat"-->
-        <!--          >-->
-        <!--            <v-icon-->
-        <!--              icon="mdi-speedometer"-->
-        <!--              size="large"-->
-        <!--              start-->
-        <!--            />-->
-
-        <!--            Get your copy-->
-        <!--          </v-btn>-->
-        <!--        </v-col>-->
+        <v-col cols="auto">
+          <button
+            class="glowing-btn"
+            onclick="window.location.href='https://github.com/fdm-monster/fdm-monster'"
+          >
+            <span class="glowing-txt">
+              Let's <span class="faulty-letter">P</span>rint!
+            </span>
+          </button>
+        </v-col>
 
         <v-col cols="auto">
           <v-btn
@@ -62,18 +51,76 @@
           </v-btn>
         </v-col>
       </v-row>
-      <br />
 
-      <button onclick="window.location.href='https://github.com/fdm-monster/fdm-monster'" class="glowing-btn"
-        ><span class="glowing-txt"
-          >Let's <span class="faulty-letter">P</span>rint!</span
-        >
-      </button>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
+      <v-card class="mx-auto" color="default" elevation="20" max-width="800">
+        <div class="d-flex justify-between">
+          <v-card-title class="flex-grow-1 flex-column align-start">
+            <strong>David Zwart</strong>
+            <div class="font-weight-thin">Developer FDM Monster</div>
+          </v-card-title>
+
+          <v-img
+            class="flex-grow-0"
+            height="100px"
+            src="/DavidZwart.jpg"
+            style="flex-basis: 100px"
+          ></v-img>
+        </div>
+      </v-card>
+
+      <v-card
+        class="mx-auto mt-5"
+        color="default"
+        elevation="20"
+        max-width="800"
+      >
+        <div class="d-flex justify-between">
+          <v-card-title class="flex-grow-1 flex-column align-start">
+            <small class="text-h6">Ewoud van Munster</small>
+            <div class="font-weight-thin">
+              FDM Monster helps my company MTB3D scale it's 3D Printing efforts!
+            </div>
+
+            <div class="text-h6 font-weight-thin">(Sept, 2022)</div>
+          </v-card-title>
+
+          <v-img
+            class="flex-grow-0"
+            height="125px"
+            src="/EwoudVanMunster.jpg"
+            style="flex-basis: 125px"
+          ></v-img>
+        </div>
+
+        <v-divider></v-divider>
+
+        <v-card-actions class="pa-4">
+          Owner of MTB3D
+          <v-spacer></v-spacer>
+
+          <span class="text-grey-lighten-2 text-caption mr-2"> (5) </span>
+
+          <v-rating
+            active-color="yellow-accent-4"
+            color="white"
+            half-increments
+            hover
+            model-value="5"
+            readonly
+            size="18"
+          ></v-rating>
+        </v-card-actions>
+      </v-card>
     </v-responsive>
   </v-container>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 //
 </script>
 <style>
