@@ -81,9 +81,9 @@
       >
         <div class="d-flex justify-between">
           <v-card-title class="flex-grow-1 flex-column align-start">
-            <small class="text-h6">Ewoud van Munster</small>
+            <small class="text-h6">Ewoud van Munster (CEO)</small>
             <div class="font-weight-thin">
-              FDM Monster helps my company MTB3D scale it's 3D Printing efforts!
+              FDM Monster helps MTB3D scale it's 3D Printing efforts!
             </div>
 
             <div class="text-h6 font-weight-thin">(Sept, 2022)</div>
@@ -110,7 +110,7 @@
             color="white"
             half-increments
             hover
-            model-value="5"
+            :model-value="5"
             readonly
             size="18"
           ></v-rating>
