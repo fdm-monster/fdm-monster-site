@@ -1,4 +1,4 @@
-# default
+# FDM Monster Site
 
 ## Project setup
 
@@ -42,3 +42,7 @@ pnpm build
 ### Customize configuration
 
 See [Configuration Reference](https://vitejs.dev/config/).
+
+# License
+
+This is a private project. None of the code, assets and other resources in this repository may be used, redistributed or deployed by parties except the owner(s) of FDM Monster.
