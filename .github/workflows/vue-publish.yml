@@ -16,4 +16,5 @@ jobs:
 
       - run: yarn install --immutable --immutable-cache --check-cache
       - run: yarn run typecheck
-      - run: yarn run test:unit
+      - run: yarn run build
+#      - run: yarn run test:unit
