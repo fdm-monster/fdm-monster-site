@@ -7,12 +7,16 @@
     "enabled": true,
     "extends": ["schedule:daily"]
   },
-  "matchUpdateTypes": [
-    "minor",
-    "patch",
-    "pin",
-    "digest",
-    "lockFileMaintenance"
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance"
+      ]
+    }
   ],
   "enabled": true,
   "automerge": true
