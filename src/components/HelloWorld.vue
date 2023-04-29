@@ -1,21 +1,20 @@
 <template>
   <v-container class="fill-height">
     <v-responsive class="d-flex align-center text-center fill-height">
-      <v-img contain height="250" src="/assets/logo.svg" />
+      <v-img contain height="200" src="/assets/logo.svg" />
 
-      <br/>
-      <h1 class="text-h2 mt-4 font-weight-bold">FDM-Monster</h1>
+      <br />
+      <h1 class="text-h3 mt-4 font-weight-bold">FDM Monster</h1>
 
       <div class="mt-4 text-body-2">
         Are you ready to scale up your 3D Print farm using OctoPrint instances?
       </div>
-      <br/>
+      <br />
 
-      <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
+      <v-row>
+        <v-col>
           <v-btn
             href="https://discord.com/invite/mwA8uP8CMc"
-            min-width="164"
             rel="noopener noreferrer"
             target="_blank"
             variant="text"
@@ -24,23 +23,19 @@
 
             Our Discord
           </v-btn>
-        </v-col>
 
-        <v-col cols="auto">
-          <button
-            class="glowing-btn"
-            onclick="window.location.href='https://github.com/fdm-monster/fdm-monster'"
+          <v-btn
+            href="https://docs.fdm-monster.net"
+            rel="noopener noreferrer"
+            target="_blank"
+            variant="text"
           >
-            <span class="glowing-txt">
-              Let's <span class="faulty-letter">P</span>rint!
-            </span>
-          </button>
-        </v-col>
+            <v-icon icon="mdi-bookshelf" size="large" start />
+            Documentation
+          </v-btn>
 
-        <v-col cols="auto">
           <v-btn
             href="https://octoprint.org/"
-            min-width="164"
             rel="noopener noreferrer"
             target="_blank"
             variant="text"
@@ -51,13 +46,23 @@
           </v-btn>
         </v-col>
       </v-row>
+      <v-row class="d-flex align-center justify-center mt-4 mb-2">
+        <v-col cols="auto">
+          <button
+            class="glowing-btn"
+            onclick="window.location.href='https://github.com/fdm-monster/fdm-monster'"
+          >
+            <span class="glowing-txt">
+              Let's <span class="faulty-letter">P</span>rint!
+            </span>
+          </button>
+        </v-col>
+      </v-row>
 
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
 
-      <v-card class="mx-auto" color="default" elevation="20" max-width="800">
+      <v-card class="mx-auto" color="default" elevation="20" max-width="600">
         <div class="d-flex justify-between">
           <v-card-title class="flex-grow-1 flex-column align-start">
             <strong>David Zwart</strong>
@@ -65,7 +70,7 @@
           </v-card-title>
 
           <v-img
-            class="flex-grow-0"
+            class="flex-grow-0 float-end"
             height="100px"
             src="/DavidZwart.jpg"
             style="flex-basis: 100px"
@@ -77,16 +82,16 @@
         class="mx-auto mt-5"
         color="default"
         elevation="20"
-        max-width="800"
+        max-width="600"
       >
         <div class="d-flex justify-between">
           <v-card-title class="flex-grow-1 flex-column align-start">
-            <small class="text-h6">Ewoud van Munster (CEO)</small>
-            <div class="font-weight-thin">
+            <small class="text-h7">Ewoud van Munster - MTB3D</small>
+            <small class="d-block font-weight-thin">
               FDM Monster helps MTB3D scale it's 3D Printing efforts!
-            </div>
+            </small>
 
-            <div class="text-h6 font-weight-thin">(Sept, 2022)</div>
+            <div class="text-h6 font-weight-thin">(Nov, 2022)</div>
           </v-card-title>
 
           <v-img
@@ -97,24 +102,6 @@
           ></v-img>
         </div>
 
-        <v-divider></v-divider>
-
-        <v-card-actions class="pa-4">
-          Owner of MTB3D
-          <v-spacer></v-spacer>
-
-          <span class="text-grey-lighten-2 text-caption mr-2"> (5) </span>
-
-          <v-rating
-            active-color="yellow-accent-4"
-            color="white"
-            half-increments
-            hover
-            :model-value="5"
-            readonly
-            size="18"
-          ></v-rating>
-        </v-card-actions>
       </v-card>
     </v-responsive>
   </v-container>
