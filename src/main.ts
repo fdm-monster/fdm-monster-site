@@ -6,16 +6,16 @@
 
 // Components
 import App from "./App.vue";
+import './index.css'
 
 // Composables
 import { createApp } from "vue";
 
 // Plugins
 import { registerPlugins } from "@/plugins";
-import vuetify from "./plugins/vuetify";
 
 const app = createApp(App);
 
 registerPlugins();
 
-app.use(vuetify).mount("#app");
+app.mount("#app");
