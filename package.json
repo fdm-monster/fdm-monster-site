@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/types": "7.22.11",
     "@types/jsdom": "21.1.2",
-    "@types/node": "18.17.13",
+    "@types/node": "18.17.14",
     "@types/webfontloader": "1.6.35",
     "@vitejs/plugin-vue": "4.3.4",
     "@vue/tsconfig": "0.1.3",
