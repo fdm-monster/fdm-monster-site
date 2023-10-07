@@ -10,7 +10,7 @@
     "typecheck": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
-    "@mdi/font": "7.2.96",
+    "@mdi/font": "7.3.67",
     "roboto-fontface": "0.10.0",
     "vue": "3.3.4",
     "vuetify": "3.3.20",
