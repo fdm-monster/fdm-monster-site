@@ -172,10 +172,10 @@
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.4.tgz#cf2f0c7c51b985b6afecea73eb2cd65421ecb717"
   integrity sha512-95Sfz4nvMAb0Nl9DTxN3j64adfwfbBPEYq14VN7zT5J5O2M9V6iZMIIQU1U+pJyl9agHYHNCqhCXgyEtIRRa5A==
 
-"@types/webfontloader@1.6.36":
-  version "1.6.36"
-  resolved "https://registry.yarnpkg.com/@types/webfontloader/-/webfontloader-1.6.36.tgz#d722e073a874447893cf19f1bf09894b46c20fa7"
-  integrity sha512-zi18nVXGF9m7GFqWCJHZvu1Hxzcsr7B+FFExY9cbuOzq60sqOiaDW1X1BUoDUwQaXxWaiDYXOgFHnlsnSvPasw==
+"@types/webfontloader@1.6.37":
+  version "1.6.37"
+  resolved "https://registry.yarnpkg.com/@types/webfontloader/-/webfontloader-1.6.37.tgz#7c3d67315afc2a7a4ac26768d077722e50df90bd"
+  integrity sha512-/rX4xIG7E4pvkCcXfuZklgb3cwnD3WGLi5DUg0tfBvlklo5qfVom0XiDFonp1styeEGWoXuv1dMQHmEt0cZysA==
 
 "@vitejs/plugin-vue@4.4.0":
   version "4.4.0"
