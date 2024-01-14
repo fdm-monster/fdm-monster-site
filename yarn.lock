@@ -283,17 +283,6 @@
     "@volar/language-core" "1.11.1"
     path-browserify "^1.0.1"
 
-"@vue/compiler-core@3.4.11":
-  version "3.4.11"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.4.11.tgz#ca9cb2f7f85993e3fd572db5a16a05bb83d45df2"
-  integrity sha512-xFD+p14L4J0DkzHMdgLiQBU5g861fuOTzag30GsfPXBpghLZOvmd22lKiBMTRRpQRpp7qxPnBlFMoeiGMM4MBg==
-  dependencies:
-    "@babel/parser" "^7.23.6"
-    "@vue/shared" "3.4.11"
-    entities "^4.5.0"
-    estree-walker "^2.0.2"
-    source-map-js "^1.0.2"
-
 "@vue/compiler-core@3.4.13":
   version "3.4.13"
   resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.4.13.tgz#49f499034c25b0832845028ea3cd701fe5a17367"
@@ -305,21 +294,13 @@
     estree-walker "^2.0.2"
     source-map-js "^1.0.2"
 
-"@vue/compiler-dom@3.4.13":
+"@vue/compiler-dom@3.4.13", "@vue/compiler-dom@^3.3.0":
   version "3.4.13"
   resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.4.13.tgz#66a80a6ee412a3d32b7175a146b75d9ec3d1c50c"
   integrity sha512-XSNbpr5Rs3kCfVAmBqMu/HDwOS+RL6y28ZZjDlnDUuf146pRWt2sQkwhsOYc9uu2lxjjJy2NcyOkK7MBLVEc7w==
   dependencies:
     "@vue/compiler-core" "3.4.13"
     "@vue/shared" "3.4.13"
-
-"@vue/compiler-dom@^3.3.0":
-  version "3.4.11"
-  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.4.11.tgz#995d198e2efafe8f63973a3c6bcfd3eb41378dba"
-  integrity sha512-cRVLROlY7D72WK2xS91L126Dd6xHNTWDWPUBRh1Syk7+TahCk8Eown1/fSi+VX9c76sMMqEZROQSbwV0HSJnhg==
-  dependencies:
-    "@vue/compiler-core" "3.4.11"
-    "@vue/shared" "3.4.11"
 
 "@vue/compiler-sfc@3.4.13":
   version "3.4.13"
@@ -391,12 +372,7 @@
     "@vue/compiler-ssr" "3.4.13"
     "@vue/shared" "3.4.13"
 
-"@vue/shared@3.4.11", "@vue/shared@^3.3.0":
-  version "3.4.11"
-  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.11.tgz#402db73705fddd50e2bf222bbdf1a6743552d1c4"
-  integrity sha512-BtC+vE8kHf/jZoyJnTFd0PmY8NejyUeUkshXm8LriHs8KmQUmcZXIbrifjA3WDmvzg7C8D6gBSvdl49pOfU2lQ==
-
-"@vue/shared@3.4.13":
+"@vue/shared@3.4.13", "@vue/shared@^3.3.0":
   version "3.4.13"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.13.tgz#a1eefce5ddffe207d53eafbc07f4ebbea0a4768a"
   integrity sha512-56crFKLPpzk85WXX1L1c0QzPOuoapWlPVys8eMG8kkRmqdMjWUqK8KpFdE2d7BQA4CEbXwyyHPq6MpFr8H9rcg==
