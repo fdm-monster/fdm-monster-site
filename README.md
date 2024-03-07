@@ -1,5 +1,12 @@
 # FDM Monster Site
 
+The source code for the site https://fdm-monster.net. There's not much to be seen here!
+
+Please visit the main repository https://github.com/fdm-monster/fdm-monster
+Or visit the Dockerhub repository for it https://hub.docker.com/repository/docker/fdmmonster/fdm-monster/general
+
+
+
 ## Project setup
 
 ```
