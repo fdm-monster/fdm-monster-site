@@ -267,24 +267,24 @@
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-5.0.5.tgz#e3dc11e427d4b818b7e3202766ad156e3d5e2eaa"
   integrity sha512-LOjm7XeIimLBZyzinBQ6OSm3UBCNVCpLkxGC0oWmm2YPzVZoxMsdvNVimLTBzpAnR9hl/yn1SHGuRfe6/Td9rQ==
 
-"@volar/language-core@2.4.0-alpha.5", "@volar/language-core@~2.4.0-alpha.2":
-  version "2.4.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@volar/language-core/-/language-core-2.4.0-alpha.5.tgz#4d982899675da830f17a06e4a31aa5f396a27352"
-  integrity sha512-CX+0vrNoCcO3tGZYIn7kNHug/u6+EImfbZe0tI6x/lCZc0MBJ7t9f6AKJT+mHJZ3ePhva6NVNv8mY1tNEURd5A==
+"@volar/language-core@2.4.0-alpha.11", "@volar/language-core@~2.4.0-alpha.2":
+  version "2.4.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@volar/language-core/-/language-core-2.4.0-alpha.11.tgz#a9778b590da80dac799792fab0cffa2c91a9f5dc"
+  integrity sha512-DtftH0DtpksK1y+de/kLnu8CHcFQ7huKXi7cyxH9R0PbOOTSGXd31kijBeKNzyoXRp8dqGpu/7WhOlCWXQR62w==
   dependencies:
-    "@volar/source-map" "2.4.0-alpha.5"
+    "@volar/source-map" "2.4.0-alpha.11"
 
-"@volar/source-map@2.4.0-alpha.5":
-  version "2.4.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@volar/source-map/-/source-map-2.4.0-alpha.5.tgz#bc0a1e1ec6c3d7762523eabee6bd92f13fb8c70c"
-  integrity sha512-5OxMPGqbxaMuFXfj10k3xWwmJ2nb0b20kNaONAKxwUQxGY6nh6skX5AAFhIAbC8woplsVJpR0tAhgQR4S96VYQ==
+"@volar/source-map@2.4.0-alpha.11":
+  version "2.4.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@volar/source-map/-/source-map-2.4.0-alpha.11.tgz#62af26d18ff2f3b0a90e05a91c6542825dae8f87"
+  integrity sha512-yyjmv8KUkTcxXzwme9qUMl6Szdji9JUQa8eadE4ib/spFXXZGq6QOX8cgSu5UQ0ooyBJFO1zdVH5otBJyZE3Ew==
 
 "@volar/typescript@~2.4.0-alpha.2":
-  version "2.4.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@volar/typescript/-/typescript-2.4.0-alpha.5.tgz#948d727af9f2e1a09c0717a2a35884c52b916aa4"
-  integrity sha512-D9nzGP09afyLlsXC5rzVeLzEaMLOmW1GGPyOiuXRRGTLshX+/cp+MNsUbwUd3pih0OhRmpUFl4VHpUGA2M4iBw==
+  version "2.4.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@volar/typescript/-/typescript-2.4.0-alpha.11.tgz#9925ffed8033da3c3e5e00ef5d53057592172410"
+  integrity sha512-N/v+wSddhtsNtfv2w0Bxj2QQWURN5budGzpyBTrlcXxz2dnvB0eAMqrEQbBi6rCOVHlRaXbh+wyTRdAcB/FHrg==
   dependencies:
-    "@volar/language-core" "2.4.0-alpha.5"
+    "@volar/language-core" "2.4.0-alpha.11"
     path-browserify "^1.0.1"
     vscode-uri "^3.0.8"
 
