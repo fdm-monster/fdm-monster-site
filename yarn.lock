@@ -747,17 +747,17 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tldts-core@^6.1.55:
-  version "6.1.55"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.55.tgz#cab0d412672fca9c77d3c51312c69bb5b5ee95c2"
-  integrity sha512-BL+BuKHHaOpntE5BGI6naXjULU6aRlgaYdfDHR3T/hdbNTWkWUZ9yuc11wGnwgpvRwlyUiIK+QohYK3olaVU6Q==
+tldts-core@^6.1.56:
+  version "6.1.56"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.56.tgz#6996d6f97172920aceedb9fadaa85a691e911332"
+  integrity sha512-Ihxv/Bwiyj73icTYVgBUkQ3wstlCglLoegSgl64oSrGUBX1hc7Qmf/CnrnJLaQdZrCnTaLqMYOwKMKlkfkFrxQ==
 
 tldts@^6.1.32:
-  version "6.1.55"
-  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.55.tgz#9a27d1708652bbae93d4b842dc2f8554fdabffc6"
-  integrity sha512-HxQR/9roQ07Pwc8RyyrJMAxRz5/ssoF3qIPPUiIo3zUt6yMdmYZjM2OZIFMiZ3jHyz9jrGHEHuQZrUhoc1LkDw==
+  version "6.1.56"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.56.tgz#c425d343418a9c66db1197998559b828822bb9ec"
+  integrity sha512-2PT1oRZCxtsbLi5R2SQjE/v4vvgRggAtVcYj+3Rrcnu2nPZvu7m64+gDa/EsVSWd3QzEc0U0xN+rbEKsJC47kA==
   dependencies:
-    tldts-core "^6.1.55"
+    tldts-core "^6.1.56"
 
 tough-cookie@^5.0.0:
   version "5.0.0"
