@@ -752,17 +752,17 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
-tldts-core@^6.1.57:
-  version "6.1.57"
-  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.57.tgz#2cc6e6af3d0807ad616900300083930efa81b57d"
-  integrity sha512-lXnRhuQpx3zU9EONF9F7HfcRLvN1uRYUBIiKL+C/gehC/77XTU+Jye6ui86GA3rU6FjlJ0triD1Tkjt2F/2lEg==
+tldts-core@^6.1.58:
+  version "6.1.58"
+  resolved "https://registry.yarnpkg.com/tldts-core/-/tldts-core-6.1.58.tgz#f0b5c1fcb2e214f558c7cb380fb1e6f4b2459d8b"
+  integrity sha512-dR936xmhBm7AeqHIhCWwK765gZ7dFyL+IqLSFAjJbFlUXGMLCb8i2PzlzaOuWBuplBTaBYseSb565nk/ZEM0Bg==
 
 tldts@^6.1.32:
-  version "6.1.57"
-  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.57.tgz#5d91d257ac945837358fe3954343fc01122fbad7"
-  integrity sha512-Oy7yDXK8meJl8vPMOldzA+MtueAJ5BrH4l4HXwZuj2AtfoQbLjmTJmjNWPUcAo+E/ibHn7QlqMS0BOcXJFJyHQ==
+  version "6.1.58"
+  resolved "https://registry.yarnpkg.com/tldts/-/tldts-6.1.58.tgz#63d211f46f2c17d69d4cedf0c4c19423a608874f"
+  integrity sha512-MQJrJhjHOYGYb8DobR6Y4AdDbd4TYkyQ+KBDVc5ODzs1cbrvPpfN1IemYi9jfipJ/vR1YWvrDli0hg1y19VRoA==
   dependencies:
-    tldts-core "^6.1.57"
+    tldts-core "^6.1.58"
 
 tough-cookie@^5.0.0:
   version "5.0.0"
